@@ -128,14 +128,16 @@ section {
 #memecontainer {
 	width: 100%;
 	background-image: linear-gradient(to bottom right, #191919, #EC2F5E);
+	justify-content: center;
 }
 
 .grid { 
   	display: grid;
-  	grid-template-columns: repeat(auto-fill, minmax(18%, 1fr));
+  	grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
   	grid-gap: 20px;
   	align-items: stretch;
 	padding: 2em;
+	justify-content: center;
   }
 
 .grid img {
@@ -154,14 +156,4 @@ section {
 
 .grid span {
 	color: #EC2F5E;
-}
-
-
-.imgcaption {
-	opacity: 0;
-}
-
-.imgcaption:hover {
-	opacity: 1;
-	color: #000;
 }

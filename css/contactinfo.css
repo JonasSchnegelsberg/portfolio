@@ -1,2 +1,80 @@
 /* CSS Document */
 
+section {
+	background-color: #191919;
+	height: 90vh;
+}
+
+.contactinfo {
+	display: grid;
+	grid-template-columns: repeat(2, 30%);
+	grid-gap: 5em;
+	justify-content: center;
+}
+
+.contactinfo p {
+	text-align: center;
+	margin-top: 2em;
+	color: #ccc;
+}
+
+.contactinfo h2 {
+	color: #f9f9f9;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.contactinfo h2:after {
+	content: "";
+    display: block;
+    height: 2px;
+    width: 250px;
+    background-color: #f9f9f9;
+    opacity: 0.2;
+    margin: 1em auto 0 auto;
+}
+
+.contactinfo span {
+	color: #EC2F5E;
+}
+
+.contact {
+	padding: 2em;
+	background-color: #333;
+	height: 30%;
+	align-self: center;
+}
+
+.social {
+	padding: 2em;
+	background-color: #333;
+	height: 30%;
+	align-self: center;
+}
+
+
+/*---SOCIALMEDIA BUTTONS---*/
+.s-m{
+  	justify-content: space-around;
+  	display: flex;
+  	max-width: 20em;
+	margin: 0 auto;
+}
+
+.s-m a{
+  	text-decoration: none;
+  	font-size: 28px;
+  	color: #f1f1f1;
+  	width: 2.5em;
+  	height: 2.5em;
+  	text-align: center;
+  	transition: 0.4s all;
+  	line-height: 2.5em;
+  	cursor: pointer;
+  	background-color: #EC2F5E;
+  	border-radius: 50%;
+}
+
+.s-m a:hover{
+  	transform: scale(1.2);
+}
