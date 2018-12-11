@@ -1,0 +1,82 @@
+/* CSS Document */
+
+section {
+	height: 100vh;
+	background-color: #191919;
+}
+
+/*---ABOUT ME---*/
+
+.aboutcon {
+	display: grid;
+	grid-template-columns: 40% 55%;
+	grid-gap: 2em;
+	background-color: #191919;
+	align-content: center;
+	height: 90vh;
+}
+
+.aboutcon article {
+	overflow: hidden;
+	padding: 1em;
+}
+
+.aboutcon h2, h3, p {
+	color: #f9f9f9;
+	line-height: 2em;
+}
+
+.aboutcon h2 {
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.aboutcon h3 {
+	color: #777;
+	font-weight: 10;
+	font-size: 19px;
+}
+
+.aboutcon p {
+	color: #ddd;
+	font-size: 17px;
+}
+
+.aboutcon span {
+	color: #EC2F5E;
+}
+
+.aboutcon img {
+	width: 100%;
+	filter: grayscale(100%);
+}
+
+.aboutcon img:hover {
+	transform: scale(1.05);
+	transition-duration: 0.5s;
+	filter: none;
+}
+
+
+/*---GARAGE---*/
+
+#memecontainer {
+	width: 85%;
+	padding: 2em 4em;
+	margin: 15em auto 0 auto;
+	background-image: linear-gradient(to bottom right, #191919, #333);
+}
+
+.grid { 
+  	display: grid;
+  	grid-template-columns: repeat(auto-fill, minmax(18%, 1fr));
+  	grid-gap: 20px;
+  	align-items: stretch;
+	padding: 2em;
+  }
+
+.grid img {
+  	border: 1px solid #ccc;
+  	box-shadow: 4px 4px 12px 0px  rgba(0,0,0,0.5);
+  	max-width: 100%;
+}

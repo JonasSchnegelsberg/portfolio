@@ -1,0 +1,167 @@
+/* CSS Document */
+
+section {
+	height: 100vh;
+	background-color: #191919;
+}
+
+/*---PREVIEW CARDS---*/
+.previewgrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2em;
+	padding: 0 4em;
+	align-items: center;
+	align-self: center;
+	height: 90vh;
+	background-color: #191919;
+	z-index: 1;
+}
+
+.previewgrid h1 {
+	text-align: center;
+	grid-column: 1/4;
+	align-items: center;
+	align-self: center;
+	line-height: 1em;
+	text-transform: uppercase;
+	color: #f9f9f9;
+	font-size: 50px;
+}
+
+.previewgrid img {
+	width: 100%;
+	border-radius: 2px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+
+.previewgrid img:hover {
+	transform: scale(1.1);
+	box-shadow: 2px 2px 6px 0px #000;
+	border: none;
+	filter: none;
+	z-index: 3;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+}
+
+/*---WORK SECTION---*/
+
+.workgrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1em;
+	/*grid-auto-rows: minmax(20em, auto);
+	grid-auto-columns: minmax(10em, auto);*/
+	background-color: #333;
+	height: 100vh;
+}
+
+.workgrid:nth-child(odd) {
+	background-color: #191919;
+	box-shadow: 4px 4px 12px 0px  rgba(0,0,0,0.5);
+}
+
+.worktext {
+	grid-column: auto;
+	grid-row: 1/1;
+	align-self: flex-start;
+	padding: 2em;
+}
+
+.worktext h2 {
+	text-align: left;
+	color: #fff;
+	font-weight: 300;
+}
+
+.worktext h3 {
+	color: #777;
+}
+
+.worktext p {
+	line-height: 1.8em;
+	color: #f9f9f9;
+}
+
+.worktext span {
+	color: #EC2F5E;
+}
+
+.workwebsite {
+	grid-column: 2/4;
+	grid-row: 1/2;
+	align-self: center;
+	padding: 2em;
+}
+
+.workwebsite img {
+	width: 100%;
+}
+
+
+/*
+.artwork {
+	grid-column: 2/4;
+	grid-row: 2/6;
+	align-content: space-between;
+}
+
+.artgrid { 
+  	display: grid;
+  	grid-template-columns: repeat(3, 1fr);
+  	grid-gap: 1em;
+	align-content: space-between;
+  }
+
+.grid img {
+  	border: 1px solid #ccc;
+  	box-shadow: 4px 4px 12px 0px  rgba(0,0,0,0.5);
+  	max-width: 100%;
+	
+}
+*/
+
+/*OTHER WORK*/
+
+#memecontainer {
+	width: 100%;
+	background-image: linear-gradient(to bottom right, #191919, #EC2F5E);
+}
+
+.grid { 
+  	display: grid;
+  	grid-template-columns: repeat(auto-fill, minmax(18%, 1fr));
+  	grid-gap: 20px;
+  	align-items: stretch;
+	padding: 2em;
+  }
+
+.grid img {
+  	border: 1px solid #ccc;
+  	box-shadow: 4px 4px 12px 0px  rgba(0,0,0,0.5);
+  	max-width: 100%;
+}
+
+.grid h2 {
+	text-align: center;
+	align-self: center;
+	width: 100%;
+	color: #f9f9f9;
+	text-transform: uppercase;
+}
+
+.grid span {
+	color: #EC2F5E;
+}
+
+
+.imgcaption {
+	opacity: 0;
+}
+
+.imgcaption:hover {
+	opacity: 1;
+	color: #000;
+}

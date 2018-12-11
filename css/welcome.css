@@ -1,0 +1,112 @@
+/* CSS Document */
+
+section {
+	height: 100vh;
+    scroll-snap-align: start;
+    text-align: center;
+    position: relative;
+	background-color: #191919;
+}
+
+
+/*FRONTPAGE TOP*/
+
+.start {
+	height: 90vh;
+	background-color: #191919;
+	padding-left: 0;
+	z-index: 1;
+	line-height: 1em;
+}
+
+.start h1 {
+	color: #f9f9f9;
+	font-size: 50px;
+	text-align: center;
+	font-weight: 10;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+.start h2 {
+	color: #f9f9f9;
+	font-size: 50px;
+	text-align: center;
+	font-weight: 700;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+.start span {
+	color: #EC2F5E;
+	text-shadow: 1px 1px 1px #000;
+	font-weight: 700;
+}
+
+/*---GRID---*/
+
+.gridcontainer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1em;
+	grid-auto-rows: minmax(20em, auto);
+	grid-auto-columns: minmax(10em, auto);
+	background-color: #fff;
+}
+
+.img {
+	grid-column: 2/4;
+	color: #f9f9f9;
+	overflow: inherit;
+	align-items: center;
+	align-self: center;
+	padding: 0 1em;
+}
+
+.img img {
+	width: 100%;
+	height: auto;
+	box-shadow: 2px 2px 6px 0px #000;
+	border-radius: 5px;
+}
+
+.text {
+	grid-column: 1/2;
+	overflow: auto;
+	text-align: left;
+	align-items: center;
+	align-self: center;
+	padding: 0 1em;
+}
+
+.text p {
+	color: #8b8dab;
+	font-size: 18px;
+	line-height: 32.4px;
+}
+
+.text h2 {
+	color: #131530;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.text a {
+	text-decoration: none;
+	color: #EC2F5E; 
+}
+
+.startgridcon {
+	display: grid;
+	grid-template-columns: 1 1fr;
+	grid-gap: 1em;
+}
+
+.text2 {
+	grid-column: 1/4;
+	overflow: auto;
+	padding: 1em;
+	align-items: center;
+	align-self: center;
+}
+
