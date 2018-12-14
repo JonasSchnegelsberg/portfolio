@@ -51,7 +51,7 @@ section {
 	grid-gap: 1em;
 	grid-auto-rows: minmax(20em, auto);
 	grid-auto-columns: minmax(10em, auto);
-	background-color: #fff;
+	background-color: ##191919;
 }
 
 .img {
@@ -67,7 +67,6 @@ section {
 	width: 100%;
 	height: auto;
 	box-shadow: 2px 2px 6px 0px #000;
-	border-radius: 5px;
 }
 
 .text {
@@ -80,13 +79,13 @@ section {
 }
 
 .text p {
-	color: #8b8dab;
+	color: #f9f9f9;
 	font-size: 18px;
 	line-height: 32.4px;
 }
 
 .text h2 {
-	color: #131530;
+	color: #f9f9f9;
 	font-size: 22px;
 	font-weight: 700;
 }

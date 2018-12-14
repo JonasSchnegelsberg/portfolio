@@ -31,7 +31,6 @@ section {
 
 .previewgrid img {
 	width: 100%;
-	border-radius: 2px;
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
 }
@@ -54,13 +53,8 @@ section {
 	grid-gap: 1em;
 	/*grid-auto-rows: minmax(20em, auto);
 	grid-auto-columns: minmax(10em, auto);*/
-	background-color: #333;
-	height: 100vh;
-}
-
-.workgrid:nth-child(odd) {
 	background-color: #191919;
-	box-shadow: 4px 4px 12px 0px  rgba(0,0,0,0.5);
+	height: 100vh;
 }
 
 .worktext {
