@@ -23,7 +23,7 @@ section {
 	color: #f9f9f9;
 	font-size: 50px;
 	text-align: center;
-	font-weight: 10;
+	font-weight: 100;
 	margin-top: 0;
 	text-transform: uppercase;
 }
@@ -51,7 +51,7 @@ section {
 	grid-gap: 1em;
 	grid-auto-rows: minmax(20em, auto);
 	grid-auto-columns: minmax(10em, auto);
-	background-color: ##191919;
+	background-color: #191919;
 }
 
 .img {
@@ -97,7 +97,7 @@ section {
 
 .startgridcon {
 	display: grid;
-	grid-template-columns: 1 1fr;
+	grid-template-columns: 90%;
 	grid-gap: 1em;
 }
 

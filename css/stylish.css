@@ -42,7 +42,7 @@ li {
 nav a {
 	width: auto;
 	display: block;
-	padding: 20px 15px;
+	padding: 1em 0.8em;
 	text-decoration: none;
 	color: #f2f2f2;
 	text-align: center;
@@ -111,7 +111,6 @@ ul {
 }
 
 /*---UNDERSCORE BLINKER---*/
-
 .blink {
   animation: blinker 1s linear infinite;
 	color: #EC2F5E;
